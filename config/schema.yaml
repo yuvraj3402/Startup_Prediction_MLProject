@@ -1,0 +1,22 @@
+columns:
+  R&D Spend: float
+  Administration: float
+  Marketing Spend: float
+  Profit: float
+  State: category
+
+
+
+numerical_columns:
+  - R&D Spend
+  - Administration
+  - Marketing Spend
+
+
+
+categorical_columns:
+  - State
+
+
+
+target_column: Profit
